@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import Videos from './componentes/videos'
 //const WebSocket = require('ws');
 
-const url = "ws://192.168.0.25:8000";
+const url = "ws://35.223.29.62:8000";
 const ws = new WebSocket(url);
 
 class App extends Component {
